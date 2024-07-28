@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Les gens les plus célèbres du domaine informatique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .scientist-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .scientist {
+            flex-basis: calc(33.33% - 20px);
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .scientist img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 10px;
+            transition: transform 0.5s;
+        }
+
+        .scientist img.img-hover {
+            cursor: pointer;
+        }
+
+        .scientist img.img-hover:hover {
+            transform: scale(1.7);
+        }
+
+        .scientist h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .scientist p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Les gens les plus célèbres du domaine informatique</h1>
+    </header>
+    <main>
+        <div class="row">
+            <div class="scientist">
+                <h2>Alan Turing</h2>
+                <img src="https://i.redd.it/vpsga0d4z3e41.jpg" alt="Alan Turing" class="img-hover">
+                <p>Alan Turing est considéré comme l'un des fondateurs de l'informatique moderne. Il a développé la théorie de la calculabilité et a conçu le premier ordinateur électronique, le Automatic Computing Engine (ACE).</p>
+            </div>
+            <div class="scientist">
+                <h2>Tim Berners-Lee</h2>
+                <img src="https://th.bing.com/th/id/OIP.llr7k068XF3ss4YTV9hdtQHaLH?pid=ImgDet&w=182&h=273&c=7&dpr=1,3" alt="Tim Berners-Lee" class="img-hover">
+                <p>Tim Berners-Lee est l'inventeur du World Wide Web. Il a développé le protocole HTTP et le langage HTML, qui sont encore utilisés aujourd'hui pour créer des sites web.</p>
+            </div>
+            <div class="scientist">
+                <h2>Donald Knuth</h2>
+                <img src="https://th.bing.com/th?id=OIP.ikd5IQ4Igrt5jHDtoDhaCwHaKX&w=211&h=295&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Donald Knuth" class="img-hover">
+                <p>Donald Knuth est un informaticien américain qui a développé la théorie de l'algorithmique et a écrit la série de livres "The Art of Computer Programming", qui est considérée comme une référence dans le domaine.</p>
+            </div>
+            <div class="scientist">
+                <h2>Marvin Minsky</h2>
+                <img src="https://th.bing.com/th?id=OIP.6Yile9JavnzgqW4klkpudQHaEL&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Marvin Minsky" class="img-hover">
+                <p>Marvin Minsky est un informaticien américain qui a développé la théorie des réseaux de neurones et a conçu le premier ordinateur à reconnaissance de formes, le SNARC.</p>
+            </div>
+            <div class="scientist">
+                <h2>John McCarthy</h2>
+                <img src="https://th.bing.com/th?id=OIP.93C5gXYxzmF9PG6ZujcjBgHaKQ&w=212&h=294&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="John McCarthy" class="img-hover">
+                <p>John McCarthy est un informaticien américain qui a développé la théorie de l'intelligence artificielle et a créé le langage de programmation Lisp.</p>
+            </div>
+            <div class="scientist">
+                <h2>Edsger Dijkstra</h2>
+                <img src="https://www.bing.com/th?id=OIP.5DTK3wtgRMUEX3NXIfwRQwHaJ4&w=150&h=200&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Edsger Dijkstra" class="img-hover">
+                <p>Edsger Dijkstra est un informaticien néerlandais qui a développé la théorie des algorithmes et a créé le langage de programmation Pascal.</p>
+            </div>
+        </div>
+    </main>
+    <script>
+        // Pas de code JavaScript nécessaire pour ce exemple
+    </script>
+</body>
+</html>
