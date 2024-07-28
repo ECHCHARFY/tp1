@@ -34,4 +34,5 @@ Ce projet configure un environnement de développement avec Nginx, PostgreSQL et
 1. Clonez ce dépôt sur votre machine locale :
 
    git clone https://github.com/votre-utilisateur/projet_Tp1.git
+   
    cd projet_Tp1
